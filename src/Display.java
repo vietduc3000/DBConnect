@@ -23,5 +23,6 @@ public class Display {
        // dbController.searchRecord();
 
         dbController.readRecord(); // this is created on PC
+        //this is created on mac
     }
 }
