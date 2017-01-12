@@ -17,11 +17,11 @@ public class Display {
 
     public static void initialize(){
         DBController dbController = new DBController("BballPlayers.accdb");
-        dbController.createRecord();
-        dbController.updateRecord();
-        dbController.deleteRecord();
-        dbController.searchRecord();
+       // dbController.createRecord();
+       // dbController.updateRecord();
+       // dbController.deleteRecord();
+       // dbController.searchRecord();
 
-        dbController.readRecord();
+        dbController.readRecord(); // this is created on PC
     }
 }
